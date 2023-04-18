@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: medium;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+h1 {
+    margin: 32px 0px 32px 0px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.shopping-cart-container { 
+    width: 95%;
+    margin: auto;
+}
+
+.item-container {
+    width: 100%;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #c7c7c7;
+    border-radius: 8px;
+    box-shadow: 4px 4px 16px #707070;
+    margin-bottom: 16px;
+}
+
+.item-container > * {
+    width: 20%;
+    margin: auto 0px auto 0px;
+}
+
+.remove-container button {
+    padding: 2px 2px 2px 2px;
+    border: 1px solid #666666;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 2px 2px 8px #707070;
+    
+}
+
+.remove-container button:active {
+    position: relative;
+    top: 2px;
+}
+
+.item-container img {
+    max-width: 100px;
+    height: auto;
+}
+
+.item-name {
+    font-size: 20px;
+    color: #666666;
+}
+
+.item-name-premium {
+    font-size: 24px;
+    color: goldenrod;
+}
+
+.quantity-controls {
+    text-align: right;
+}
+
+.quantity-controls button {
+    padding: 8px 16px 8px 16px;
+    border: 1px solid #666666;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    color: #666666;
+    box-shadow: 4px 4px 8px #707070;
+}
+
+.quantity-controls button:active {
+    position: relative;
+    top: 2px;
+}
+
+.quantity-controls span {
+    margin: 0px 16px 0px 16px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #666666;
+}
+
+.item-total-price {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    color: #991414;
+}
+
+.foot {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    width: 50%;
+}
+
+.total div {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #272727;
+    text-align:right;    
+}
+
+.filter {
+    width: 50%;
+    text-align: left;
+}
+
+.filter label {
+    margin-left: 8px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.gastos-envio {
+    font-size: small;
+    text-transform: initial;
+}
+
+.gastos-envio-premium {
+    font-size: normal;
+    color: goldenrod;
+    text-transform: initial;
+}
+
+.total-purchase {
+    font-size: 32px;
+    font-weight: bold;
+    color: #272727
+}
+
+.total-strikethrough {
+    font-size: 32px;
+    font-weight: bold;
+    color: #272727;
+    text-decoration: line-through;
+}
+
+.total-discount {
+    font-size: 40px;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+.text-discount {
+    font-size: normal;
+    text-transform: initial;
+    color: goldenrod;
+}
